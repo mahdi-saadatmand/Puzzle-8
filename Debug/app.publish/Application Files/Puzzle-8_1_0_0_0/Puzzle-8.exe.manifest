@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Puzzle-8.exe" version="1.0.0.0" publicKeyToken="ca2440c1e2b4d198" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Puzzle-8" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Puzzle-8.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Puzzle-8.exe" size="30712">
+      <assemblyIdentity name="Puzzle-8" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>V1k1B/aSHrWvtcn15mj+sqeXQIaS+cGcq52hhZIVH0c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Puzzle-8.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1NgAxCSw4ibTXzWVy7D6Rw60Qih4Dn37KvGhG5Ora/s=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MAHDIS-SWORD\ModernSystem" issuerKeyHash="21819bd1e28877230d142629f8878cfcea2227a2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>itmZwnrYI0TGP2XHbq5+/lYUr0BvAIPkPFKaz5VkpNo=</DigestValue></Reference></SignedInfo><SignatureValue>LntsTkzGdWrDN4JZXUW4/e/xY91n3dEmthxVDkPVSFWdAdQHDd4PiAPyNYMwb56L3V67kKWGFz2inpQjt9LYPNH05Shu/osakyGsnQQPe9h2t9WG2h8efkLVHtRgsAoPyRqww7OIB+RaqwXA7c7payjb77OMEbAdBz0G7HTzXxY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sig7FdeDl2SE/28LO/Gi1uGp2yvSrxrwHwtUhWevIcaVlbI6JxE7Fiw5knDG++foLnXnRkctESM0kuuMvU08RoHHGqx4oUYyUJfu+3Mopoqw9EWRyu9VYumMt2+x2u76RMEbCkQfmnTrfTnq18kcJ/jIVCkNC2xRn7WhNkAtMbU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="daa46495cf9a523ce483006f40af1456fe7eae6ec7653fc64423d87ac299d98a" Description="" Url=""><as:assemblyIdentity name="Puzzle-8.exe" version="1.0.0.0" publicKeyToken="ca2440c1e2b4d198" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MAHDIS-SWORD\ModernSystem</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>XiJn9TwrSViH8FQRfhPc/Wt7qpZ/IvndS3l6gQ6/T5k=</DigestValue></Reference></SignedInfo><SignatureValue>MtITJ3ahssWSBG+MBkxYF05DgSD8LGTm/V6gOAIRswXJKfl52YQfJ7JGZNg+H69v+0H/+vLVGlrw0foayTHwJ5PkoxHkRRgHo61xVtyLBhASN9EQh+Lu3ZCgM3M/c+6lqH6Ki+j/jSchgxRqCG+C2s/TxyqEz5ZnHAiuh1t/o64=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sig7FdeDl2SE/28LO/Gi1uGp2yvSrxrwHwtUhWevIcaVlbI6JxE7Fiw5knDG++foLnXnRkctESM0kuuMvU08RoHHGqx4oUYyUJfu+3Mopoqw9EWRyu9VYumMt2+x2u76RMEbCkQfmnTrfTnq18kcJ/jIVCkNC2xRn7WhNkAtMbU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/TCCAWagAwIBAgIQEym7owEUJJ9K/o8symd0SjANBgkqhkiG9w0BAQsFADA9MTswOQYDVQQDHjIATQBBAEgARABJAFMALQBTAFcATwBSAEQAXABNAG8AZABlAHIAbgBTAHkAcwB0AGUAbTAeFw0yMDEyMDcyMTI5MjdaFw0yMTEyMDgwMzI5MjdaMD0xOzA5BgNVBAMeMgBNAEEASABEAEkAUwAtAFMAVwBPAFIARABcAE0AbwBkAGUAcgBuAFMAeQBzAHQAZQBtMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyKDsV14OXZIT/bws78aLW4anbK9KvGvAfC1SFZ68hxpWVsjonETsWLDmScMb75+gudedGRy0RIzSS64y9TTxGgccarHihRjJQl+77cyimirD0RZHK71Vi6Yy3b7Ha7vpEwRsKRB+adOt9OerXyRwn+MhUKQ0LbFGftaE2QC0xtQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAKqnks3E6NeiokO/W6FB3Zyc+KNZxI/IjUulMz+8sulScXjdF4hHleiyvkTkYzewreKoCIwL5N0IXuzodvpWFXvg24N/IVsA4dXgy8qcOyFM/bI3FdJPnCP8hf8kwlyDeSZa4x1+PE9kTl+tbJ1SWyGv45sWwVGQt6ZIAfR1tMmy</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
